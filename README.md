@@ -1,6 +1,6 @@
 # Jakobs Blog
 
-Find the blog at [jakdimi.github.io](jakdimi.github.io).
+Find the blog at [jakdimi.github.io](https://jakdimi.github.io).
 
 ### publish:
 ```bash
