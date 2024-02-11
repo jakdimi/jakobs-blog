@@ -1,0 +1,4 @@
+baseURL = 'https://jakdimi.github.io/'
+languageCode = 'de'
+title = 'Jakobs Blog'
+theme = 'PaperMod'
