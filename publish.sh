@@ -14,8 +14,10 @@ echo "==========================================================================
 echo
 
 hugo -t PaperMod && \
-git add . && \
-git commit -m "$commit_message" && \
-cd public && \
-git add . && \
-git commit -m "$commit_message"
+    git add . && \
+    git commit -m "$commit_message" && \
+    git push && \
+    cd public && \
+    git add . && \
+    git commit -m "$commit_message" && \
+    git push
