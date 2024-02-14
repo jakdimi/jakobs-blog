@@ -12,15 +12,11 @@ sammle auf dem neusten Stand zu halten.
 | Was | Kosten | Wo | Kommentar |
 | --- | ------ | -- | --------- |
 | Samen | ca. 30€ | Kaufland und Action | |
-| Aufzuchtsgewächshäuser | 11.88€ | Action | |
-| Aufzuchterde | 3.58€ | Kaufland | |
+| Aufzuchtsgewächshäuser | 11,88€ | Action | |
+| Aufzuchterde | 3,58€ | Kaufland | |
 | Anzuchttöpfe | 20€ | Kaufland | Wahrscheinlich habe ich zu viele gekauft |
+| Gesamt | ca. 65,46€ | | |
 
----
-
-Insgesamt ca. 65.46€
-
----
 
 ### Samen und Pflanzen:
 
