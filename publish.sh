@@ -13,9 +13,9 @@ echo "publishing with commit message '$commit_message'..."
 echo "================================================================================"
 echo
 
-hugo -t PaperMod
-git add .
-git commit -m "$commit_message"
-cd public
-git add .
+hugo -t PaperMod && \
+git add . && \
+git commit -m "$commit_message" && \
+cd public && \
+git add . && \
 git commit -m "$commit_message"
