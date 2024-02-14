@@ -12,12 +12,27 @@ echo
 echo "publishing with commit message '$commit_message'..."
 echo "================================================================================"
 echo
+echo "Building site..."
+echo "--------------------------------------------------------------------------------"
+echo 
 
-hugo -t PaperMod && \
-    git add . && \
-    git commit -m "$commit_message" && \
-    git push && \
-    cd public && \
-    git add . && \
-    git commit -m "$commit_message" && \
-    git push
+hugo -t PaperMod
+
+echo
+echo "Push to blog repo..."
+echo "--------------------------------------------------------------------------------"
+echo
+
+git add .
+git commit -m "$commit_message"
+git push
+
+echo
+echo "Push to site repo..."
+echo "--------------------------------------------------------------------------------"
+echo
+
+cd public
+git add .
+git commit -m "$commit_message"
+git push
