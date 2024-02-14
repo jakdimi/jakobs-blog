@@ -2,7 +2,20 @@
 
 commit_message=${1}
 
-echo ${commit_message}
+if [ -z "$commit_message" ]
+then
+    echo "Please enter commit message:"
+    read commit_message
+fi
 
+echo
+echo "publishing with commit message '$commit_message'..."
+echo "================================================================================"
+echo
+
+hugo -f PaperMod
 git add .
-git commit -m "${1}"
+git commit -m "$commit_message"
+cd public
+git add .
+git commit -m "$commit_message"
