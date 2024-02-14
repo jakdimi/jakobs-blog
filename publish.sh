@@ -9,7 +9,7 @@ then
 fi
 
 echo
-echo "publishing with commit message '$commit_message'..."
+echo "Publishing with commit message '$commit_message'..."
 echo "================================================================================"
 echo
 echo "Building site..."
