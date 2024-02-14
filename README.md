@@ -6,7 +6,9 @@ Find the blog at [jakdimi.github.io](https://jakdimi.github.io).
 ```bash
 hugo -t PaperMod
 cd public
-git push origin main
+git add .
+git commit -m "<message>"
+git push
 ```
 
 ### create new post:
